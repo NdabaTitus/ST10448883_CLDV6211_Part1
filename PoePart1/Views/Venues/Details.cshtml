@@ -1,0 +1,17 @@
+﻿@model PoePart1.Models.Venue
+
+@{
+    ViewData["Title"] = "Venue Details";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <strong>Venue Name:</strong> @Model.VenueName<br />
+    <strong>Location:</strong> @Model.Location<br />
+    <strong>Capacity:</strong> @Model.Capacity
+</div>
+
+<a href="@Url.Action("Edit", "Venues", new { id = Model.VenueID })" class="btn btn-warning">Edit</a>
+<a href="@Url.Action("Delete", "Venues", new { id = Model.VenueID })" class="btn btn-danger">Delete</a>
+<a href="@Url.Action("Index", "Venues")" class="btn btn-secondary">Back to List</a>

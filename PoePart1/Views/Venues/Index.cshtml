@@ -1,0 +1,35 @@
+﻿@model IEnumerable<PoePart1.Models.Venue>
+
+@{
+    ViewData["Title"] = "Venues List";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Venue Name</th>
+            <th>Location</th>
+            <th>Capacity</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var venue in Model)
+        {
+            <tr>
+                <td>@venue.VenueName</td>
+                <td>@venue.Location</td>
+                <td>@venue.Capacity</td>
+                <td>
+                    <a href="@Url.Action("Details", "Venues", new { id = venue.VenueID })" class="btn btn-info">Details</a>
+                    <a href="@Url.Action("Edit", "Venues", new { id = venue.VenueID })" class="btn btn-warning">Edit</a>
+                    <a href="@Url.Action("Delete", "Venues", new { id = venue.VenueID })" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create", "Venues")" class="btn btn-primary">Add New Venue</a>

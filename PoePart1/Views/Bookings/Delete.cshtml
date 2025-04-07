@@ -1,0 +1,15 @@
+﻿@model PoePart1.Models.Booking
+
+<h1>Booking Details</h1>
+
+<div>
+    <h4>Event: @Model.EventID</h4>
+    <p>Customer Name: @Model.FirstName @Model.LastName</p>
+    <p>Email: @Model.Email</p>
+    <p>Mobile Number: @Model.MobileNumber</p>
+    <p>Ticket Price: @Model.TicketPrice</p>
+    <p>Number of Tickets: @Model.NumberOfTickets</p>
+    <p>Total Price: @(Model.TicketPrice * Model.NumberOfTickets)</p>
+</div>
+
+<a href="@Url.Action("Index")" class="btn btn-secondary">Back to List</a>

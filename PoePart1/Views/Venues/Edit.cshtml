@@ -1,0 +1,28 @@
+﻿@model PoePart1.Models.Venue
+
+@{
+    ViewData["Title"] = "Edit Venue";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label for="VenueID">Venue ID</label>
+        <input type="hidden" class="form-control" id="VenueID" name="VenueID" value="@Model.VenueID" />
+    </div>
+    <div class="form-group">
+        <label for="VenueName">Venue Name</label>
+        <input type="text" class="form-control" id="VenueName" name="VenueName" value="@Model.VenueName" required />
+    </div>
+    <div class="form-group">
+        <label for="Location">Location</label>
+        <input type="text" class="form-control" id="Location" name="Location" value="@Model.Location" required />
+    </div>
+    <div class="form-group">
+        <label for="Capacity">Capacity</label>
+        <input type="number" class="form-control" id="Capacity" name="Capacity" value="@Model.Capacity" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>
+

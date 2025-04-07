@@ -1,0 +1,17 @@
+﻿@model PoePart1.Models.Event
+
+<h1>Delete Event</h1>
+
+<h3>Are you sure you want to delete this event?</h3>
+<div>
+    <h4>@Model.EventName</h4>
+    <p>@Model.EventDate.ToString("yyyy-MM-dd")</p>
+    <p>@Model.Description</p>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="EventID" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+</form>
+

@@ -1,0 +1,9 @@
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Debug\net9.0\PoePart1.csproj.AssemblyReference.cache
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Debug\net9.0\PoePart1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Debug\net9.0\PoePart1.AssemblyInfoInputs.cache
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Debug\net9.0\PoePart1.AssemblyInfo.cs
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Debug\net9.0\PoePart1.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Debug\net9.0\PoePart1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Debug\net9.0\PoePart1.RazorAssemblyInfo.cache
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Debug\net9.0\PoePart1.RazorAssemblyInfo.cs
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Debug\net9.0\PoePart1.sourcelink.json

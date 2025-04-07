@@ -1,0 +1,7 @@
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Release\net9.0\PubTmp\Out\PoePart1.exe
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Release\net9.0\PubTmp\Out\appsettings.Development.json
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Release\net9.0\PubTmp\Out\appsettings.json
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Release\net9.0\PubTmp\Out\PoePart1.dll
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Release\net9.0\PubTmp\Out\PoePart1.deps.json
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Release\net9.0\PubTmp\Out\PoePart1.runtimeconfig.json
+C:\Users\lab_services_student\Desktop\ST10448883_CLDV6211_Part1\PoePart1\obj\Release\net9.0\PubTmp\Out\PoePart1.pdb

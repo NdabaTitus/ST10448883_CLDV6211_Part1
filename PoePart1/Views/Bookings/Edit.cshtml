@@ -1,0 +1,13 @@
+﻿@model PoePart1.Models.Booking
+
+<h1>Edit Booking</h1>
+
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label asp-for="FirstName" class="control-label"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <!-- Include similar fields for LastName, Email, MobileNumber, etc. -->
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>
